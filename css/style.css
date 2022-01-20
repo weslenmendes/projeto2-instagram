@@ -194,3 +194,99 @@ header {
   font-weight: 100;
   color: #8e8e8e;
 }
+
+.sidebar .social-accounts {
+  margin-top: 24px;
+}
+
+.social-accounts .heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-accounts .heading p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #8e8e8e;
+}
+
+.social-accounts .heading a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  color: #262626;
+}
+
+.social-accounts .heading a:hover {
+  opacity: 0.8;
+}
+
+.accounts {
+  margin-top: 18px;
+}
+
+.accounts .account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.account .content {
+  display: flex;
+}
+
+.account .content div {
+  margin-left: 11px;
+}
+
+.account .content div p:first-child {
+  font-size: 14px;
+  font-weight: 500;
+  color: #262626;
+}
+
+.account .content div p:last-child {
+  font-size: 12px;
+  color: #8e8e8e;
+  margin-top: 6px;
+}
+
+.account .follow {
+  font-size: 12px;
+  font-weight: 500;
+  color: #139ef2;
+  text-decoration: none;
+}
+
+.sidebar .links {
+  margin-top: 33px;
+}
+
+.sidebar .links ul {
+  font-size: 11px;
+  color: #c7c7c7;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar .links ul span {
+  color: #c7c7c7;
+  margin: 0 5px;
+}
+
+.sidebar .links ul li {
+  color: #c7c7c7;
+}
+
+.sidebar .links ul li a {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+.sidebar > p {
+  font-size: 11px;
+  color: #c7c7c7;
+  margin-top: 18px;
+}
