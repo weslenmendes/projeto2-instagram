@@ -94,6 +94,7 @@ header {
   width: 100%;
   border: 1px solid #dbdbdb;
   border-radius: 3px;
+  outline: none;
   background-color: #fafafa;
   text-align: center;
   font-size: 12px;
