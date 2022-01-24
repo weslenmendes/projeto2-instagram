@@ -345,6 +345,7 @@ header {
 
 .post .comment a {
   text-decoration: none;
+  font-size: 14px;
   font-weight: 500;
   color: #b2dffc;
   transition: all 0.3s ease-in-out;
