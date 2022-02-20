@@ -1,79 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Instagram</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/icon.ico" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icon.ico"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
-
   <body>
     <div class="container">
       <header>
-        <div class="topbar">
+        <section class="topbar">
           <div class="logo-container">
             <a href="https://instagram.com/" target="_blank">
-              <img src="assets/logo-instagram.png" alt="Logo do Instagram" />
+              <img src="assets/logo-instagram.png" alt="Logo do Instagram"/>
             </a>
+
             <span class="separator"></span>
+
             <a href="https://instagram.com/" target="_blank">
-              <img src="assets/logo.png" alt="Instagram" />
+              <img src="assets/logo.png" alt="Instagram"/>
             </a>
           </div>
 
           <div class="search-bar">
-            <input type="text" placeholder="Pesquisar" />
+            <input type="text" placeholder="Pesquisar"/>
           </div>
 
           <div class="social-actions">
             <div>
-              <a href="https://instagram.com"
-                ><ion-icon name="paper-plane-outline"></ion-icon
-              ></a>
-              <a href="https://instagram.com"
-                ><ion-icon name="compass-outline"></ion-icon
-              ></a>
-              <a href="https://instagram.com"
-                ><ion-icon name="heart-outline"></ion-icon
-              ></a>
-              <a href="https://instagram.com"
-                ><ion-icon name="person-outline"></ion-icon
-              ></a>
+              <a href="https://instagram.com">
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </a>
+              <a href="https://instagram.com">
+                <ion-icon name="compass-outline"></ion-icon>
+              </a>
+              <a href="https://instagram.com">
+                <ion-icon name="heart-outline"></ion-icon>
+              </a>
+              <a href="https://instagram.com">
+                <ion-icon name="person-outline"></ion-icon>
+              </a>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="topbar-mobile">
+        <section class="topbar-mobile">
           <div class="logo-container">
             <a href="https://instagram.com/" target="_blank">
-              <img src="assets/logo-instagram.png" alt="Logo do Instagram" />
+              <img src="assets/logo-instagram.png" alt="Logo do Instagram"/>
             </a>
           </div>
 
           <div class="instagram">
             <a href="https://instagram.com/" target="_blank">
-              <img src="assets/logo.png" alt="Instagram" />
+              <img src="assets/logo.png" alt="Instagram"/>
             </a>
           </div>
 
           <div class="social-actions">
-            <a href="https://instagram.com"
-              ><ion-icon name="paper-plane-outline"></ion-icon
-            ></a>
+            <a href="https://instagram.com">
+              <ion-icon name="paper-plane-outline"></ion-icon>
+            </a>
           </div>
-        </div>
+        </section>
 
-        <div class="bottom-bar">
-          <div class="items">
+        <section class="bottom-bar">
+          <nav class="items">
             <a href="https://instagram.com" target="_blank">
               <ion-icon name="home-outline"></ion-icon>
             </a>
@@ -89,18 +84,19 @@
             <a href="https://instagram.com" target="_blank">
               <ion-icon name="person-outline"></ion-icon>
             </a>
-          </div>
-        </div>
+          </nav>
+        </section>
       </header>
 
       <main class="main">
         <div class="container">
-          <div class="feed">
-            <div class="stories">
+          <section class="feed">
+
+            <article class="stories">
               <div class="item">
                 <div>
-                  <img class="photo" src="assets/stories/9gag.png" />
-                  <img class="bg" src="assets/stories_background.jpg" />
+                  <img class="photo" src="assets/stories/9gag.png"/>
+                  <img class="bg" src="assets/stories_background.jpg"/>
                 </div>
                 <p>9gag</p>
               </div>
@@ -167,12 +163,13 @@
               <div class="icon-next">
                 <img src="assets/svg/chevron-forward-circle.svg" />
               </div>
-            </div>
-            <div class="posts">
-              <div class="post">
+            </article>
+
+            <section class="posts">
+              <article class="post">
                 <div class="post-heading">
                   <div>
-                    <img src="assets/stories/meowed.png" alt="meowed" />
+                    <img src="assets/stories/meowed.png" alt="meowed"/>
                     <p>meowed</p>
                   </div>
 
@@ -180,37 +177,34 @@
                     <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
                   </a>
                 </div>
-                <img
-                  src="assets/post/gato-telefone.png"
-                  alt="Gato no telefone"
-                />
+                <img src="assets/post/gato-telefone.png" alt="Gato no telefone"/>
                 <div class="post-bottom">
                   <div class="actions">
                     <div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="chatbubble-outline"></ion-icon
-                      ></a>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="paper-plane-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                      </a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                      </a>
                     </div>
+
                     <a href="https://instagram.com">
-                      <img src="assets/post/Vector.svg" />
+                      <img src="assets/post/Vector.svg"/>
                     </a>
                   </div>
+
                   <div class="user-likes">
-                    <img
-                      src="assets/post/respondeai-post1.png"
-                      alt="respondeaí"
-                    />
+                    <img src="assets/post/respondeai-post1.png" alt="respondeaí"/>
                     <p>
                       Curtido por <a href="#"><strong>respondeai</strong></a> e
                       <a href="#"><strong>outras 101.523 pessoas</strong></a>
                     </p>
                   </div>
+
                   <div class="post-comments">
                     <div class="users-comments">
                       <div>
@@ -247,20 +241,17 @@
                       <div class="emoji">
                         <ion-icon name="happy-outline"></ion-icon>
                       </div>
-                      <input
-                        type="text"
-                        placeholder="Adicione um comentário..."
-                      />
+                      <input type="text" placeholder="Adicione um comentário..."/>
                     </div>
                     <a href="#">Publicar</a>
                   </div>
                 </div>
-              </div>
+              </article>
 
-              <div class="post">
+              <article class="post">
                 <div class="post-heading">
                   <div>
-                    <img src="assets/stories/meowed.png" alt="meowed" />
+                    <img src="assets/stories/meowed.png" alt="meowed"/>
                     <p>meowed</p>
                   </div>
 
@@ -268,33 +259,32 @@
                     <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
                   </a>
                 </div>
+
                 <video width="100%" autoplay muted>
-                  <source src="assets/video.mp4" type="video/mp4" />
-                  <source src="assets/video.ogg" type="video/ogg" />
+                  <source src="assets/video.mp4" type="video/mp4"/>
+                  <source src="assets/video.ogg" type="video/ogg"/>
                   Your browser does not support the video tag.
                 </video>
+
                 <div class="post-bottom">
                   <div class="actions">
                     <div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="chatbubble-outline"></ion-icon
-                      ></a>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="paper-plane-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                      </a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                      </a>
                     </div>
                     <a href="https://instagram.com">
-                      <img src="assets/post/Vector.svg" />
+                      <img src="assets/post/Vector.svg"/>
                     </a>
                   </div>
                   <div class="user-likes">
-                    <img
-                      src="assets/post/respondeai-post1.png"
-                      alt="respondeaí"
-                    />
+                    <img src="assets/post/respondeai-post1.png" alt="respondeaí"/>
                     <p>
                       Curtido por <a href="#"><strong>respondeai</strong></a> e
                       <a href="#"><strong>outras 101.523 pessoas</strong></a>
@@ -307,9 +297,9 @@
                       <a class="user" href="#">jh_01</a>
                       <p class="user-comment">Awesome!</p>
                     </div>
-                    <a href="https://instagram.com"
-                      ><ion-icon name="heart-outline"></ion-icon
-                    ></a>
+                    <a href="https://instagram.com">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </a>
                   </div>
                 </div>
                 <div class="comment">
@@ -317,16 +307,13 @@
                     <div class="emoji">
                       <ion-icon name="happy-outline"></ion-icon>
                     </div>
-                    <input
-                      type="text"
-                      placeholder="Adicione um comentário..."
-                    />
+                    <input type="text" placeholder="Adicione um comentário..."/>
                   </div>
                   <a href="#">Publicar</a>
                 </div>
-              </div>
+              </article>
 
-              <div class="post">
+              <article class="post">
                 <div class="post-heading">
                   <div>
                     <img src="assets/stories/meowed.png" alt="meowed" />
@@ -337,32 +324,26 @@
                     <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
                   </a>
                 </div>
-                <img
-                  src="assets/post/gato-telefone.png"
-                  alt="Gato no telefone"
-                />
+                <img src="assets/post/gato-telefone.png" alt="Gato no telefone"/>
                 <div class="post-bottom">
                   <div class="actions">
                     <div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="chatbubble-outline"></ion-icon
-                      ></a>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="paper-plane-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                      </a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                      </a>
                     </div>
                     <a href="https://instagram.com">
-                      <img src="assets/post/Vector.svg" />
+                      <img src="assets/post/Vector.svg"/>
                     </a>
                   </div>
                   <div class="user-likes">
-                    <img
-                      src="assets/post/respondeai-post1.png"
-                      alt="respondeaí"
-                    />
+                    <img src="assets/post/respondeai-post1.png" alt="respondeaí"/>
                     <p>
                       Curtido por <a href="#"><strong>respondeai</strong></a> e
                       <a href="#"><strong>outras 101.523 pessoas</strong></a>
@@ -374,9 +355,9 @@
                         <a class="user" href="#">John</a>
                         <p class="user-comment">Eita preula!</p>
                       </div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
                     </div>
 
                     <div class="users-comments">
@@ -384,9 +365,9 @@
                         <a class="user" href="#">José</a>
                         <p class="user-comment">E é um gato, é?</p>
                       </div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
                     </div>
 
                     <div class="users-comments">
@@ -394,9 +375,9 @@
                         <a class="user" href="#">Maria</a>
                         <p class="user-comment">Tão fofo! 🥰</p>
                       </div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
                     </div>
                   </div>
                   <div class="comment">
@@ -404,20 +385,17 @@
                       <div class="emoji">
                         <ion-icon name="happy-outline"></ion-icon>
                       </div>
-                      <input
-                        type="text"
-                        placeholder="Adicione um comentário..."
-                      />
+                      <input type="text" placeholder="Adicione um comentário..."/>
                     </div>
                     <a href="#">Publicar</a>
                   </div>
                 </div>
-              </div>
+              </article>
 
-              <div class="post">
+              <article class="post">
                 <div class="post-heading">
                   <div>
-                    <img src="assets/stories/meowed.png" alt="meowed" />
+                    <img src="assets/stories/meowed.png" alt="meowed"/>
                     <p>meowed</p>
                   </div>
 
@@ -425,32 +403,26 @@
                     <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
                   </a>
                 </div>
-                <img
-                  src="assets/post/gato-telefone.png"
-                  alt="Gato no telefone"
-                />
+                <img src="assets/post/gato-telefone.png" alt="Gato no telefone"/>
                 <div class="post-bottom">
                   <div class="actions">
                     <div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="chatbubble-outline"></ion-icon
-                      ></a>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="paper-plane-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                      </a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                      </a>
                     </div>
                     <a href="https://instagram.com">
-                      <img src="assets/post/Vector.svg" />
+                      <img src="assets/post/Vector.svg"/>
                     </a>
                   </div>
                   <div class="user-likes">
-                    <img
-                      src="assets/post/respondeai-post1.png"
-                      alt="respondeaí"
-                    />
+                    <img src="assets/post/respondeai-post1.png" alt="respondeaí"/>
                     <p>
                       Curtido por <a href="#"><strong>respondeai</strong></a> e
                       <a href="#"><strong>outras 101.523 pessoas</strong></a>
@@ -462,9 +434,9 @@
                         <a class="user" href="#">John</a>
                         <p class="user-comment">Eita preula!</p>
                       </div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
                     </div>
 
                     <div class="users-comments">
@@ -472,9 +444,9 @@
                         <a class="user" href="#">José</a>
                         <p class="user-comment">E é um gato, é?</p>
                       </div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
                     </div>
 
                     <div class="users-comments">
@@ -482,9 +454,9 @@
                         <a class="user" href="#">Maria</a>
                         <p class="user-comment">Tão fofo! 🥰</p>
                       </div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
                     </div>
                   </div>
                   <div class="comment">
@@ -492,17 +464,14 @@
                       <div class="emoji">
                         <ion-icon name="happy-outline"></ion-icon>
                       </div>
-                      <input
-                        type="text"
-                        placeholder="Adicione um comentário..."
-                      />
+                      <input type="text" placeholder="Adicione um comentário..."/>
                     </div>
                     <a href="#">Publicar</a>
                   </div>
                 </div>
-              </div>
+              </article>
 
-              <div class="post">
+              <article class="post">
                 <div class="post-heading">
                   <div>
                     <img src="assets/stories/meowed.png" alt="meowed" />
@@ -513,32 +482,26 @@
                     <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
                   </a>
                 </div>
-                <img
-                  src="assets/post/gato-telefone.png"
-                  alt="Gato no telefone"
-                />
+                <img src="assets/post/gato-telefone.png" alt="Gato no telefone"/>
                 <div class="post-bottom">
                   <div class="actions">
                     <div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="chatbubble-outline"></ion-icon
-                      ></a>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="paper-plane-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                      </a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                      </a>
                     </div>
                     <a href="https://instagram.com">
-                      <img src="assets/post/Vector.svg" />
+                      <img src="assets/post/Vector.svg"/>
                     </a>
                   </div>
                   <div class="user-likes">
-                    <img
-                      src="assets/post/respondeai-post1.png"
-                      alt="respondeaí"
-                    />
+                    <img src="assets/post/respondeai-post1.png" alt="respondeaí"/>
                     <p>
                       Curtido por <a href="#"><strong>respondeai</strong></a> e
                       <a href="#"><strong>outras 101.523 pessoas</strong></a>
@@ -550,9 +513,9 @@
                         <a class="user" href="#">John</a>
                         <p class="user-comment">Eita preula!</p>
                       </div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
                     </div>
 
                     <div class="users-comments">
@@ -560,9 +523,9 @@
                         <a class="user" href="#">José</a>
                         <p class="user-comment">E é um gato, é?</p>
                       </div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
                     </div>
 
                     <div class="users-comments">
@@ -570,9 +533,9 @@
                         <a class="user" href="#">Maria</a>
                         <p class="user-comment">Tão fofo! 🥰</p>
                       </div>
-                      <a href="https://instagram.com"
-                        ><ion-icon name="heart-outline"></ion-icon
-                      ></a>
+                      <a href="https://instagram.com">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </a>
                     </div>
                   </div>
                   <div class="comment">
@@ -580,19 +543,17 @@
                       <div class="emoji">
                         <ion-icon name="happy-outline"></ion-icon>
                       </div>
-                      <input
-                        type="text"
-                        placeholder="Adicione um comentário..."
-                      />
+                      <input type="text" placeholder="Adicione um comentário..."/>
                     </div>
                     <a href="#">Publicar</a>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
+              </article>
+            </section>
 
-          <div class="sidebar">
+          </section>
+
+          <aside class="sidebar">
             <div class="top">
               <img src="assets/sidebar/catanacomics.png" alt="catanacomics" />
               <div>
@@ -601,28 +562,25 @@
               </div>
             </div>
 
-            <div class="social-accounts">
+            <main class="social-accounts">
               <div class="heading">
                 <p>Sugestões para você</p>
                 <a href="https://instagram.com/" target="_blank">Ver tudo</a>
               </div>
 
-              <div class="accounts">
-                <div class="account">
+              <section class="accounts">
+                <article class="account">
                   <div class="content">
-                    <img
-                      src="assets/sidebar/badvibesmemes.png"
-                      alt="bad.vibes.memes"
-                    />
+                    <img src="assets/sidebar/badvibesmemes.png" alt="bad.vibes.memes"/>
                     <div>
                       <a href="#">bad.vibes.memes</a>
                       <p><small>Segue você</small></p>
                     </div>
                   </div>
                   <a href="#" class="follow">Seguir</a>
-                </div>
+                </article>
 
-                <div class="account">
+                <article class="account">
                   <div class="content">
                     <img src="assets/sidebar/chibirdart.png" alt="chibirdart" />
                     <div>
@@ -631,53 +589,44 @@
                     </div>
                   </div>
                   <a href="#" class="follow">Seguir</a>
-                </div>
+                </article>
 
-                <div class="account">
+                <article class="account">
                   <div class="content">
-                    <img
-                      src="assets/sidebar/razoesparaacreditar.png"
-                      alt="razoesparaacreditar"
-                    />
+                    <img src="assets/sidebar/razoesparaacreditar.png" alt="razoesparaacreditar"/>
                     <div>
                       <a href="#">razoesparaacreditar</a>
                       <p><small>Novo no Instagram</small></p>
                     </div>
                   </div>
                   <a href="#" class="follow">Seguir</a>
-                </div>
+                </article>
 
-                <div class="account">
+                <article class="account">
                   <div class="content">
-                    <img
-                      src="assets/sidebar/adorableanimals.png"
-                      alt="adorable_animals"
-                    />
+                    <img src="assets/sidebar/adorableanimals.png" alt="adorable_animals"/>
                     <div>
                       <a href="#">adorable_animals</a>
                       <p><small>Segue você</small></p>
                     </div>
                   </div>
                   <a href="#" class="follow">Seguir</a>
-                </div>
+                </article>
 
-                <div class="account">
+                <article class="account">
                   <div class="content">
-                    <img
-                      src="assets/sidebar/smallcutecats.png"
-                      alt="smallcutecats"
-                    />
+                    <img src="assets/sidebar/smallcutecats.png" alt="smallcutecats"/>
                     <div>
                       <a href="#">smallcutecats</a>
                       <p><small>Segue você</small></p>
                     </div>
                   </div>
                   <a href="#" class="follow">Seguir</a>
-                </div>
-              </div>
-            </div>
+                </articlç>
+              </section>
+            </main>
 
-            <div class="links">
+            <nav class="links">
               <ul>
                 <li>
                   <a href="https://instagram.com/" target="_blank">Sobre</a>
@@ -700,9 +649,7 @@
                 </li>
                 <span>•</span>
                 <li>
-                  <a href="https://instagram.com/" target="_blank"
-                    >Privacidade</a
-                  >
+                  <a href="https://instagram.com/" target="_blank">Privacidade</a>
                 </li>
                 <span>•</span>
                 <li>
@@ -710,15 +657,11 @@
                 </li>
                 <span>•</span>
                 <li>
-                  <a href="https://instagram.com/" target="_blank"
-                    >Localizações</a
-                  >
+                  <a href="https://instagram.com/" target="_blank">Localizações</a>
                 </li>
                 <span>•</span>
                 <li>
-                  <a href="https://instagram.com/" target="_blank"
-                    >Contas mais relevantes</a
-                  >
+                  <a href="https://instagram.com/" target="_blank">Contas mais relevantes</a>
                 </li>
                 <span>•</span>
                 <li>
@@ -729,10 +672,10 @@
                   <a href="https://instagram.com/" target="_blank">Idioma</a>
                 </li>
               </ul>
-            </div>
+            </nav>
 
             <p>&copy; 2021 INSTAGRAM DO FACEBOOK</p>
-          </div>
+          </aside>
         </div>
       </main>
     </div>
